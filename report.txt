@@ -1,0 +1,35 @@
+================================================================================
+                         CSV DATA PROCESSOR: SUMMARY REPORT
+================================================================================
+
+1. OVERALL METRICS
+--------------------------------------------------------------------------------
+Total Records in File:              24
+  - Valid Records Processed:        21
+  - Skipped / Invalid Records:      3
+
+Total Salary Payout:                $1,787,000.00
+Average Annual Salary:              $85,095.24
+Average Employee Age:               34.5 years
+
+Highest Salary:                     $128,000.00 (Sarah Connor - IT)
+Lowest Salary:                      $58,000.00 (Hannah Abbott - HR)
+
+2. DEPARTMENT BREAKDOWN
+--------------------------------------------------------------------------------
+Department        Count       Average Salary   Highest Paid Employee           
+--------------------------------------------------------------------------------
+Finance               4           $93,250.00   Victor Vance ($102,000.00)      
+HR                    4           $64,000.00   Toby Flenderson ($69,000.00)    
+IT                    6          $101,500.00   Sarah Connor ($128,000.00)      
+Marketing             4           $74,000.00   Uma Thurman ($85,000.00)        
+Sales                 3           $84,333.33   Michael Scott ($92,000.00)      
+
+3. SKIPPED / INVALID RECORDS (3)
+--------------------------------------------------------------------------------
+Row #   ID       Name                   Reason                                  
+--------------------------------------------------------------------------------
+4       104      Diana Prince           Missing salary                          
+12      112      Laura Croft            Invalid salary format ('abc')           
+18      118      Ryan Howard            Missing age                             
+================================================================================
